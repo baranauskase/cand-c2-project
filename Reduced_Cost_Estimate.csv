@@ -1,0 +1,12 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Elastic Load Balancing,0,71.78,861.36,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,14628,2629.1,46177.2,USD,"Quantity (2), Pricing strategy (Standard Reserved Instances 1 Year Partial Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (2000 GB), Instance type (db.m5.8xlarge), Additional backup storage (10000 GB)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,2719.92,32639.04,USD,"Operating system (Linux), Quantity (12), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (m5.2xlarge)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,252.7,3032.4,USD,S3 Standard storage (5000 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+"The first change to reduce costs was to make a commitment of reserving all EC2 and RDS instances for one year without upfront payment. Reserving an instance for one year strikes a good balance between flexibility of changing the infrastructure in the near future whilst also offering a good saving. There are of course further savings to be made by reserving instances for three years and making upfront payments, but these are only appropriate when application usage pattern is very well understood, and funds are available. The next change that IÕve made is removed the read replicas from the RDS instance. This potentially sacrifices the availability of the application in exchange for saving money on the bill.",,,,,,,,
