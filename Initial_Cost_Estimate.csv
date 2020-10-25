@@ -1,9 +1,12 @@
 Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
 My Estimate,US East (N. Virginia),,Elastic Load Balancing,0,71.78,861.36,USD,Number of Application Load Balancers (2)
 My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,5410.4,64924.80,USD,"Quantity (2), Pricing strategy (On-Demand Instances), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (2000 GB), Additional backup storage (10000 GB)"
-My Estimate,US East (N. Virginia),,Amazon EC2,0,3963.84,47566.08,USD,"Operating system (Linux), Quantity (12), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (m5.2xlarge)"
-My Estimate,US East (N. Virginia),,S3 Standard,0,252.7,3032.40,USD,S3 Standard storage (5000 GB per month)
-My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),,Amazon EC2,0,3483.84,41806.08,USD,"Operating system (Linux), Quantity (12), Pricing strategy (On-Demand Instances), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (m5.2xlarge)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,25.7,308.40,USD,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,"DT Inbound: Not selected (0 TB per month) 
+, DT Outbound: Not selected (0 TB per month) 
+"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,515.7,6188.40,USD,Number of NAT Gateways (2)
 
 
 

@@ -118,6 +118,11 @@ resource "aws_autoscaling_group" "udacity_cand_c2_t2_asg" {
   lifecycle {
     create_before_destroy = true
   }
+  tag {
+    key = "Name"
+    value = "Udacity T2"
+    propagate_at_launch = true
+  }
 }
 
 # TODO: provision 2 m4.large EC2 instances named Udacity M4
@@ -152,6 +157,9 @@ resource "aws_autoscaling_group" "udacity_cand_c2_t2_asg" {
 #   lifecycle {
 #     create_before_destroy = true
 #   }
-# }
-
-
+#   tag {
+#     key = "Name"
+#     value = "Udacity M4"
+#     propagate_at_launch = true
+#   }
+# 
